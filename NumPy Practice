@@ -1,0 +1,357 @@
+1. NumPy Basics
+1.	Import NumPy using the standard alias. 
+2.	Check the installed NumPy version. 
+3.	Create a NumPy array from the list [10, 20, 30, 40, 50]. 
+4.	Create a NumPy array containing numbers from 1 to 10. 
+5.	Create an array containing only zeros with 5 elements. 
+6.	Create an array containing only ones with 5 elements. 
+7.	Create an array of 10 elements initialized with a specific value. 
+8.	Create an empty NumPy array with 5 elements. 
+9.	Create an identity matrix of size 4×4. 
+10.	Create an array containing the values 0 to 20 with a step of 2. 
+________________________________________
+2. Array Attributes
+11.	Create a 1D array and find its number of dimensions. 
+12.	Create a 2D array and find its number of dimensions. 
+13.	Find the shape of a 2D array. 
+14.	Find the total number of elements using size. 
+15.	Find the data type of an array. 
+16.	Find the number of bytes occupied by each element. 
+17.	Find the total memory consumed by an array. 
+18.	Create a 3D array and inspect its ndim, shape, and size. 
+19.	Create arrays with different data types and compare their dtype. 
+20.	Change the data type of an array. 
+________________________________________
+3. Creating Arrays
+21.	Create a NumPy array from a Python list. 
+22.	Create a NumPy array from a Python tuple. 
+23.	Create a 2D array from nested lists. 
+24.	Create an array containing 20 evenly spaced numbers between 0 and 1. 
+25.	Create an array containing numbers from 1 to 100 with a step of 5. 
+26.	Create a 3×3 matrix containing numbers from 1 to 9. 
+27.	Create a 5×5 matrix of zeros. 
+28.	Create a 4×4 matrix of ones. 
+29.	Create a 3×3 identity matrix. 
+30.	Create a diagonal matrix from [1, 2, 3, 4]. 
+________________________________________
+4. Indexing
+31.	Access the first element of a 1D array. 
+32.	Access the last element of a 1D array. 
+33.	Access the third element. 
+34.	Access the second-last element. 
+35.	Access an element from a 2D array using row and column indexes. 
+36.	Access the first row of a 2D array. 
+37.	Access the last row. 
+38.	Access the first column. 
+39.	Access the last column. 
+40.	Access a specific element from a 3D array. 
+________________________________________
+5. Slicing
+41.	Extract the first three elements of an array. 
+42.	Extract the last three elements. 
+43.	Extract every second element. 
+44.	Reverse an array using slicing. 
+45.	Extract elements from index 2 to index 7. 
+46.	Extract the first two rows of a matrix. 
+47.	Extract the last two columns of a matrix. 
+48.	Extract a 2×2 section from a matrix. 
+49.	Reverse the rows of a matrix. 
+50.	Reverse the columns of a matrix. 
+________________________________________
+6. Array Data Types
+51.	Create an integer array. 
+52.	Create a floating-point array. 
+53.	Create a Boolean array. 
+54.	Convert an integer array into floats. 
+55.	Convert a float array into integers. 
+56.	Convert an integer array into strings. 
+57.	Check the dtype before and after conversion. 
+58.	Create an array using a specified NumPy data type. 
+59.	Compare the memory usage of different data types. 
+60.	Convert an array without modifying the original array. 
+________________________________________
+7. Mathematical Operations
+61.	Add two NumPy arrays. 
+62.	Subtract two arrays. 
+63.	Multiply two arrays. 
+64.	Divide two arrays. 
+65.	Find the remainder between two arrays. 
+66.	Raise every element of an array to the power of 2. 
+67.	Multiply every element by 10. 
+68.	Add 5 to every element. 
+69.	Divide every element by 2. 
+70.	Calculate the square of every element. 
+71.	Calculate the square root of every element. 
+72.	Calculate the absolute value of negative numbers. 
+73.	Calculate the exponential of each element. 
+74.	Calculate the natural logarithm of each element. 
+75.	Calculate sine values for an array. 
+76.	Calculate cosine values for an array. 
+________________________________________
+8. Aggregation Functions
+77.	Find the sum of all elements. 
+78.	Find the minimum value. 
+79.	Find the maximum value. 
+80.	Find the average. 
+81.	Find the median. 
+82.	Find the standard deviation. 
+83.	Find the variance. 
+84.	Find the cumulative sum. 
+85.	Find the cumulative product. 
+86.	Find the index of the maximum value. 
+87.	Find the index of the minimum value. 
+88.	Find the range between the minimum and maximum values. 
+________________________________________
+9. Axis Operations
+Use a 2D array for these questions.
+89.	Find the sum of each row. 
+90.	Find the sum of each column. 
+91.	Find the average of each row. 
+92.	Find the average of each column. 
+93.	Find the maximum value of each row. 
+94.	Find the maximum value of each column. 
+95.	Find the minimum value of each row. 
+96.	Find the minimum value of each column. 
+97.	Find the standard deviation of each row. 
+98.	Find the standard deviation of each column. 
+________________________________________
+10. Reshaping
+99.	Convert a 1D array of 12 elements into a 3×4 matrix. 
+100.	Convert a 1D array into a 2×6 matrix. 
+101.	Convert a 2D array into a 1D array using flatten(). 
+102.	Convert a 2D array into a 1D array using ravel(). 
+103.	Reshape a 3×4 matrix into a 2×6 matrix. 
+104.	Reshape a matrix into a 4×3 matrix. 
+105.	Convert a matrix into a column vector. 
+106.	Convert a matrix into a row vector. 
+107.	Automatically determine one dimension while reshaping. 
+108.	Check whether reshaping changes the total number of elements. 
+________________________________________
+11. Transpose
+109.	Find the transpose of a 2D matrix. 
+110.	Transpose a 3×4 matrix. 
+111.	Convert a row vector into a column vector. 
+112.	Convert a column vector into a row vector. 
+113.	Compare the shape of an array before and after transpose. 
+114.	Transpose a matrix and calculate its row sums. 
+________________________________________
+12. Array Concatenation
+115.	Concatenate two 1D arrays. 
+116.	Concatenate two 2D arrays vertically. 
+117.	Concatenate two 2D arrays horizontally. 
+118.	Join three arrays together. 
+119.	Concatenate arrays along axis 0. 
+120.	Concatenate arrays along axis 1. 
+121.	Combine two student datasets vertically. 
+122.	Combine two feature matrices horizontally. 
+________________________________________
+13. Stack and Split
+123.	Stack two arrays vertically using vstack(). 
+124.	Stack two arrays horizontally using hstack(). 
+125.	Stack arrays using stack(). 
+126.	Split an array into two equal parts. 
+127.	Split an array into three equal parts. 
+128.	Split a matrix horizontally. 
+129.	Split a matrix vertically. 
+130.	Extract individual arrays after splitting. 
+________________________________________
+14. Searching
+131.	Find all positions where an array contains the value 10. 
+132.	Find all elements greater than 50. 
+133.	Find all elements less than 20. 
+134.	Find indexes of even numbers. 
+135.	Find indexes of odd numbers. 
+136.	Find indexes where values are between 20 and 50. 
+137.	Find the positions of the maximum values. 
+138.	Find the positions of values satisfying multiple conditions. 
+139.	Find the first occurrence of a specific value. 
+140.	Find the number of elements satisfying a condition. 
+________________________________________
+15. Filtering / Boolean Indexing
+141.	Extract all values greater than 50. 
+142.	Extract all even numbers. 
+143.	Extract all odd numbers. 
+144.	Extract values between 30 and 70. 
+145.	Extract negative values. 
+146.	Replace all negative values with 0. 
+147.	Replace all values greater than 100 with 100. 
+148.	Extract values divisible by 5. 
+149.	Extract values satisfying two conditions simultaneously. 
+150.	Extract values satisfying either of two conditions. 
+________________________________________
+16. Sorting
+151.	Sort a 1D array. 
+152.	Sort an array in descending order. 
+153.	Sort each row of a matrix. 
+154.	Sort each column of a matrix. 
+155.	Find the indexes that would sort an array using argsort(). 
+156.	Find the three largest values. 
+157.	Find the three smallest values. 
+158.	Sort an array while preserving the original array. 
+159.	Sort a 2D array based on one column. 
+160.	Find the ranking/order of values in an array. 
+________________________________________
+17. Random Module
+161.	Generate a random number between 0 and 1. 
+162.	Generate 10 random numbers. 
+163.	Generate 10 random integers between 1 and 100. 
+164.	Generate a 3×3 matrix of random integers. 
+165.	Generate random floating-point values within a specific range. 
+166.	Generate random values from a normal distribution. 
+167.	Generate 1000 random values from a normal distribution. 
+168.	Set a random seed and generate numbers. 
+169.	Generate a random sample from an array. 
+170.	Randomly shuffle an array. 
+171.	Generate random integers representing dice rolls. 
+172.	Simulate 100 coin flips using NumPy. 
+________________________________________
+18. Copy and View
+173.	Create a view of an array and modify it. 
+174.	Create a copy of an array and modify it. 
+175.	Compare the behavior of view() and copy(). 
+176.	Determine whether two arrays share the same underlying data. 
+177.	Modify a slice and observe whether the original changes. 
+178.	Create an independent copy of a sliced array. 
+________________________________________
+19. Broadcasting
+179.	Add a scalar to every element of an array. 
+180.	Multiply a matrix by a scalar. 
+181.	Add a 1D array to every row of a matrix. 
+182.	Add a 1D array to every column of a matrix. 
+183.	Subtract the mean of each column from the matrix. 
+184.	Normalize every row using broadcasting. 
+185.	Normalize every column using broadcasting. 
+186.	Create two arrays with compatible shapes and perform arithmetic using broadcasting. 
+187.	Create two arrays with incompatible shapes and identify why broadcasting fails. 
+________________________________________
+20. Matrix Operations
+188.	Create two matrices and perform matrix addition. 
+189.	Perform matrix subtraction. 
+190.	Perform element-wise multiplication. 
+191.	Perform matrix multiplication using @. 
+192.	Perform matrix multiplication using np.matmul(). 
+193.	Find the transpose of a matrix. 
+194.	Find the determinant of a matrix. 
+195.	Find the inverse of a matrix. 
+196.	Find the trace of a matrix. 
+197.	Find eigenvalues and eigenvectors. 
+198.	Solve a system of linear equations. 
+199.	Verify that a matrix multiplied by its inverse produces an identity matrix. 
+________________________________________
+21. Linear Algebra
+200.	Calculate the dot product of two vectors. 
+201.	Calculate the inner product. 
+202.	Calculate the outer product. 
+203.	Calculate the norm of a vector. 
+204.	Calculate the Euclidean distance between two vectors. 
+205.	Calculate the cosine similarity between two vectors. 
+206.	Solve two simultaneous equations. 
+207.	Solve three simultaneous equations. 
+208.	Find the determinant of a 3×3 matrix. 
+209.	Find the inverse of a 3×3 matrix. 
+210.	Verify a matrix equation using NumPy. 
+________________________________________
+22. Missing / Special Values
+211.	Create an array containing NaN values. 
+212.	Find which elements are NaN. 
+213.	Count the number of NaN values. 
+214.	Replace NaN values with zero. 
+215.	Replace NaN values with the mean. 
+216.	Create an array containing infinity. 
+217.	Detect infinite values. 
+218.	Replace infinite values with a suitable value. 
+219.	Calculate statistics while ignoring NaN. 
+220.	Remove NaN values from an array. 
+________________________________________
+23. Conditions and where()
+221.	Replace values below 50 with 0 using np.where(). 
+222.	Replace values above 50 with 1. 
+223.	Categorize values as "Pass" and "Fail". 
+224.	Create three categories based on CGPA. 
+225.	Replace negative values with their absolute values. 
+226.	Select between two arrays based on a condition. 
+227.	Find the indexes satisfying a condition using where(). 
+228.	Use nested conditions with np.where(). 
+________________________________________
+24. Unique Values
+229.	Find unique values in an array. 
+230.	Count the number of unique values. 
+231.	Find the frequency of each unique value. 
+232.	Find unique values and their counts. 
+233.	Find unique rows in a 2D array. 
+234.	Find duplicate values in an array. 
+235.	Determine which values occur more than once. 
+________________________________________
+25. Advanced Array Manipulation
+236.	Add a new row to a matrix. 
+237.	Add a new column to a matrix. 
+238.	Delete a row from a matrix. 
+239.	Delete a column from a matrix. 
+240.	Insert an element at a specific index. 
+241.	Insert a row into a matrix. 
+242.	Insert a column into a matrix. 
+243.	Delete specific elements. 
+244.	Replace a specific row. 
+245.	Replace a specific column. 
+________________________________________
+26. NumPy for Data Analysis
+246.	Given student marks, calculate the average marks. 
+247.	Find the highest-scoring student. 
+248.	Find the lowest-scoring student. 
+249.	Find students scoring above the average. 
+250.	Calculate the percentage of students who passed. 
+251.	Calculate subject-wise averages. 
+252.	Find the highest mark in each subject. 
+253.	Normalize a marks dataset between 0 and 1. 
+254.	Standardize a dataset using mean and standard deviation. 
+255.	Find outliers using standard deviation. 
+256.	Calculate the correlation between two variables. 
+257.	Calculate the covariance between two variables. 
+258.	Analyze a dataset containing age, salary, and experience. 
+259.	Find the top 5 values in a dataset. 
+260.	Calculate statistics for each column of a dataset. 
+________________________________________
+27. NumPy + Machine Learning Preparation
+261.	Create a feature matrix X. 
+262.	Create a target vector y. 
+263.	Determine the shape of X and y. 
+264.	Normalize features using min-max normalization. 
+265.	Standardize features using z-score normalization. 
+266.	Calculate the mean of each feature. 
+267.	Calculate the standard deviation of each feature. 
+268.	Calculate Euclidean distance between two data points. 
+269.	Calculate distances between multiple data points. 
+270.	Calculate a covariance matrix. 
+271.	Calculate a correlation matrix. 
+272.	Perform matrix multiplication for a simple linear model. 
+273.	Implement a simple linear regression prediction using NumPy. 
+274.	Calculate Mean Squared Error using NumPy. 
+275.	Calculate Mean Absolute Error using NumPy. 
+________________________________________
+28. NumPy Mini Challenges
+276.	Reverse an array without using a loop. 
+277.	Find the second-largest value. 
+278.	Find the second-smallest value. 
+279.	Find the top 5 values without sorting the entire array. 
+280.	Remove duplicate values. 
+281.	Find common elements between two arrays. 
+282.	Find elements present in one array but not another. 
+283.	Find missing numbers from a sequence. 
+284.	Find whether two arrays are equal. 
+285.	Find the intersection of two arrays. 
+286.	Find the union of two arrays. 
+287.	Find the difference between two arrays. 
+288.	Swap two rows of a matrix. 
+289.	Swap two columns of a matrix. 
+290.	Find the diagonal elements of a matrix. 
+291.	Find the sum of the main diagonal. 
+292.	Find the sum of the anti-diagonal. 
+293.	Check whether a matrix is symmetric. 
+294.	Check whether a matrix is an identity matrix. 
+295.	Flatten a matrix without using flatten(). 
+296.	Transpose a matrix without using transpose(). 
+297.	Find the most frequent value in an array. 
+298.	Find all duplicate values. 
+299.	Find the row containing the maximum sum. 
+300.	Find the column containing the maximum sum. 
+
